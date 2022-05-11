@@ -4,7 +4,7 @@ import Card from "../UI/Card";
 import Button from "../UI/Button";
 import ErrorModel from "../UI/ErrorModel";
 import classes from "./AddUser.module.css";
-import Wrapper from "../Wrapper/Wrapper";
+import Wrapper from "../Helper/Wrapper";
 
 const AddUser = (props) => {
   const [enteredUsername, setEnteredUsername] = useState("");
